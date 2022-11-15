@@ -27,12 +27,27 @@ public class InstructorDetail {
     @Column(name = "hobby")
     private String hobby;
 
+    // add new field for instructor (also add getter/setter)
+
+    // add @OneToOne annotation
+    @OneToOne(mappedBy = "instructorDetail",cascade = CascadeType.ALL)
+    private Instructor instructor;
+
+
     public InstructorDetail() {
     }
 
     public InstructorDetail(String youtubeChanel, String hobby) {
         this.youtubeChanel = youtubeChanel;
         this.hobby = hobby;
+    }
+
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
+    public void setInstructor(Instructor instructor) {
+        this.instructor = instructor;
     }
 
     public int getId() {

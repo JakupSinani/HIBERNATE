@@ -18,12 +18,12 @@ public class CreateInstructor {
 
         try {
             //  create the objects
-            /*
+
             Instructor tempInstructor = new Instructor("Jakup","Sinani","Jakup.sinanii1@gmail.com");
             InstructorDetail tempInstructorDetail=new InstructorDetail("http://www.youtube.com/JakupSinani","Coding");
-             */
-            Instructor tempInstructor = new Instructor("Sinan","Sinani","Sinan.sinanii1@gmail.com");
-            InstructorDetail tempInstructorDetail=new InstructorDetail("http://www.youtube.com/sssJakupSinani","Tennis");
+
+            /*Instructor tempInstructor = new Instructor("Sinan","Sinani","Sinan.sinanii1@gmail.com");
+            InstructorDetail tempInstructorDetail=new InstructorDetail("http://www.youtube.com/sssJakupSinani","Tennis");*/
 
             //  associate the object
 
