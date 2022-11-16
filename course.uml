@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course</OriginalElement>
+  <nodes>
+    <node x="-11.062022712260728" y="265.71337838325326">10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.instructor</node>
+    <node x="-294.0" y="830.6039417095176">10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.student</node>
+    <node x="20.51131171399834" y="523.1078970090159">10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course</node>
+    <node x="-129.49705792708858" y="686.9352448563754">10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course_student</node>
+    <node x="166.94093854996527" y="675.1311039882781">10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.review</node>
+    <node x="-32.31726358305144" y="24.0">10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.instructor_detail</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course_student" target="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.review" target="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.instructor" target="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.instructor_detail" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course" target="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.instructor" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.course_student" target="10f6e70c-e353-456a-980a-34594147c81f.TABLE:hb-01-one-to-one-uni.student" relationship="REFERENCES">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.5443037974683544" showDependencies="false" x="24.5" y="498.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
