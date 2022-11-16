@@ -1,4 +1,4 @@
-package com.example.hb_01_one_to_one_uni.oneToMany.entity;
+package com.example.hb_01_one_to_one_uni.entity;
 
 import com.example.hb_01_one_to_one_uni.entity.Instructor;
 
